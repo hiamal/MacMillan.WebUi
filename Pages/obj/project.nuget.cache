@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "F0mQ2IYZ7wezRRVEZBlBQ3PQ/t4uyIsFzP+VnemYOmqNg9RYoC0XEa17Wm1wC3rl3QoZJoU8RuX4gT5spzOvKA==",
+  "success": true,
+  "projectFilePath": "/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Pages/Pages.csproj",
+  "expectedPackageFiles": [
+    "/Users/amal/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/amal/.nuget/packages/selenium.support/4.8.1/selenium.support.4.8.1.nupkg.sha512",
+    "/Users/amal/.nuget/packages/selenium.webdriver/4.8.1/selenium.webdriver.4.8.1.nupkg.sha512",
+    "/Users/amal/.nuget/packages/selenium.webdriver.chromedriver/110.0.5481.7700/selenium.webdriver.chromedriver.110.0.5481.7700.nupkg.sha512"
+  ],
+  "logs": []
+}

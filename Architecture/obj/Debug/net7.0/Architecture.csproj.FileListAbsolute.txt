@@ -1,0 +1,15 @@
+/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/bin/Debug/net7.0/selenium-manager/linux/selenium-manager
+/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/bin/Debug/net7.0/selenium-manager/macos/selenium-manager
+/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/bin/Debug/net7.0/selenium-manager/windows/selenium-manager.exe
+/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/bin/Debug/net7.0/Architecture.deps.json
+/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/bin/Debug/net7.0/Architecture.dll
+/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/bin/Debug/net7.0/Architecture.pdb
+/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/obj/Debug/net7.0/Architecture.csproj.AssemblyReference.cache
+/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/obj/Debug/net7.0/Architecture.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/obj/Debug/net7.0/Architecture.AssemblyInfoInputs.cache
+/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/obj/Debug/net7.0/Architecture.AssemblyInfo.cs
+/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/obj/Debug/net7.0/Architecture.csproj.CoreCompileInputs.cache
+/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/obj/Debug/net7.0/Architecture.dll
+/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/obj/Debug/net7.0/refint/Architecture.dll
+/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/obj/Debug/net7.0/Architecture.pdb
+/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/obj/Debug/net7.0/ref/Architecture.dll
