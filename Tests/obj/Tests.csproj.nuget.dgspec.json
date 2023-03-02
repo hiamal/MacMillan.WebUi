@@ -150,6 +150,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/Architecture.csproj": {
+                "projectPath": "/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/Architecture.csproj"
+              },
               "/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Pages/Pages.csproj": {
                 "projectPath": "/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Pages/Pages.csproj"
               }
@@ -166,6 +169,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
             "NUnit": {
               "target": "Package",
               "version": "[3.13.3, )"
@@ -173,6 +180,22 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[4.4.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[110.0.5481.7700, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.9.74, )"
             }
           },
           "imports": [

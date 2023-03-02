@@ -1,0 +1,23 @@
+{
+    "environments": [
+      {
+        "Name": "dev",
+        "BaseUrl": "https://demoqa.com",
+        "Username": "devuser",
+        "Password": "devpassword"
+      },
+      {
+        "Name": "test",
+        "BaseUrl": "https://demoqa.com",
+        "Username": "testuser",
+        "Password": "testpassword"
+      },
+      {
+        "Name": "prod",
+        "BaseUrl": "https://demoqa.com",
+        "Username": "Hiamal",
+        "Password": "Hiamal@1"
+      }
+    ]
+  }
+  
