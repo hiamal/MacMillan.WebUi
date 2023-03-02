@@ -1,4 +1,4 @@
-@ignore
+
 Feature: Web Table Tests
 
 Scenario: Edit email for Alden

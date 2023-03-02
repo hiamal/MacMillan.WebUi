@@ -1,4 +1,4 @@
-@ignore
+
 Feature: Drag And Drop Page Tests
 
 Scenario: Drag And Drop source element to target element

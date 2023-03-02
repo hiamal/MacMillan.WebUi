@@ -1,4 +1,4 @@
-#@ignore
+#
 Feature: Checkbox Pages Tests
 
 Scenario: Select Only Documents Checkbox and check results

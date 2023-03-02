@@ -1,4 +1,4 @@
-@ignore
+
 Feature: Date Picker Page Tests
 
 Scenario: Verify if user can select a date on the date field

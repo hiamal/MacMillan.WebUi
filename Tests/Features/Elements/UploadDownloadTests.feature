@@ -1,4 +1,4 @@
-@ignore
+
 Feature: Upload Download Page Tests
 
 Scenario: Upload a file
