@@ -1,4 +1,4 @@
-#@ignore
+@ignore
 Feature: Button Page Tests
 
 Scenario: Click on 'Click Me' button and verify the message

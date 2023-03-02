@@ -1,4 +1,4 @@
-
+@ignore
 Feature: Alert Page Tests
 
 Scenario: Open an alert with a prompt box

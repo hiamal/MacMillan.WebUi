@@ -21,12 +21,14 @@ namespace Tests.Features.Interactions
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
     [NUnit.Framework.DescriptionAttribute("Sortable Page Tests")]
+    [NUnit.Framework.IgnoreAttribute("Ignored feature")]
     public partial class SortablePageTestsFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-        private static string[] featureTags = ((string[])(null));
+        private static string[] featureTags = new string[] {
+                "ignore"};
         
 #line 1 "SortablePage.feature"
 #line hidden

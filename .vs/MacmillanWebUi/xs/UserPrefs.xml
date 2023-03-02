@@ -1,0 +1,77 @@
+﻿<Properties StartupConfiguration="{6D3695F9-C7D2-42D9-9855-B4C907F03E00}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/PageObjects/Elements/CheckBoxPage.cs">
+    <Files>
+      <File FileName="Tests/Steps/AlertsAndWindows/AlertSteps.cs" Line="14" Column="18" />
+      <File FileName="Tests/Steps/AlertsAndWindows/WindowSteps.cs" Line="9" Column="14" />
+      <File FileName="Tests/Steps/Elements/ButtonSteps.cs" Line="14" Column="9" />
+      <File FileName="Tests/Steps/Interactions/DragAndDropSteps.cs" Line="13" Column="18" />
+      <File FileName="Tests/Steps/Elements/TableSteps.cs" Line="16" Column="31" />
+      <File FileName="Tests/Steps/Elements/TestBoxSteps.cs" Line="21" Column="1" />
+      <File FileName="Tests/Steps/Widgets/AutoCompleteSteps.cs" Line="14" Column="9" />
+      <File FileName="Tests/Steps/Widgets/DatePickerSteps.cs" Line="13" Column="9" />
+      <File FileName="Tests/Steps/Interactions/SortableSteps.cs" Line="14" Column="9" />
+      <File FileName="Tests/Steps/Elements/UploadDownloadSteps.cs" Line="17" Column="9" />
+      <File FileName="Tests/Steps/Widgets/ToolTipSteps.cs" Line="22" Column="1" />
+      <File FileName="Architecture/EnvironmentConfig/EnvironmentDetails.cs" Line="29" Column="53" />
+      <File FileName="Tests/Steps/Elements/CheckBoxSteps.cs" Line="42" Column="1" />
+      <File FileName="Pages/PageObjects/Elements/CheckBoxPage.cs" Line="26" Column="1" />
+      <File FileName="Architecture/Web/Element.cs" Line="51" Column="38" />
+      <File FileName="Tests/Features/Elements/CheckBoxTests.feature" Line="13" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MacmillanWebUi" expanded="True">
+            <Node name="Architecture" expanded="True">
+              <Node name="EnvironmentConfig" expanded="True" />
+              <Node name="Web" expanded="True" />
+            </Node>
+            <Node name="Pages" expanded="True">
+              <Node name="PageObjects" expanded="True">
+                <Node name="Elements" expanded="True">
+                  <Node name="CheckBoxPage.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Tests" expanded="True">
+              <Node name="Features" expanded="True" />
+              <Node name="Steps" expanded="True">
+                <Node name="AlertsAndWindows" expanded="True" />
+                <Node name="Elements" expanded="True" />
+                <Node name="Interactions" expanded="True" />
+                <Node name="Widgets" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>thisElement.Selected</Value>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="MacmillanWebUi" expanded="True">
+            <Node name="Tests" expanded="True">
+              <Node name="Tests.Features.Elements" expanded="True">
+                <Node name="CheckboxPagesTestsFeature" expanded="True" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Tests/Steps/Elements/CheckBoxSteps.cs" relfile="Tests/Steps/Elements/CheckBoxSteps.cs" line="42" column="1" />
+      <Breakpoint file="/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Architecture/Web/Element.cs" relfile="Architecture/Web/Element.cs" line="52" column="1" />
+      <Breakpoint file="/Users/amal/Documents/Interviews/Macmillan.WebUi/MacMillan.WebUi/Pages/PageObjects/Elements/CheckBoxPage.cs" relfile="Pages/PageObjects/Elements/CheckBoxPage.cs" line="24" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

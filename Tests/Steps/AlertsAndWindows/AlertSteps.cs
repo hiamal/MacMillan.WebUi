@@ -5,7 +5,6 @@ using Architecture.Web;
 using NUnit.Framework;
 using Architecture.EnvironmentConfig;
 using Pages.PageObjects.AlertsAndWindows;
-using Architecture.EnvironmentConfig;
 
 namespace Tests.Steps.AlertsAndWindows
 {

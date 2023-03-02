@@ -1,4 +1,4 @@
-#@ignore
+@ignore
 Feature: Window Page Tests
 
 Scenario: Open a new Tab

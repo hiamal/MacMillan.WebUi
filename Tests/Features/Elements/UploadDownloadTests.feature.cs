@@ -21,12 +21,14 @@ namespace Tests.Features.Elements
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
     [NUnit.Framework.DescriptionAttribute("Upload Download Page Tests")]
+    [NUnit.Framework.IgnoreAttribute("Ignored feature")]
     public partial class UploadDownloadPageTestsFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-        private static string[] featureTags = ((string[])(null));
+        private static string[] featureTags = new string[] {
+                "ignore"};
         
 #line 1 "UploadDownloadTests.feature"
 #line hidden

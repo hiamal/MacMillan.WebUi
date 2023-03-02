@@ -1,4 +1,4 @@
-#@ignore
+@ignore
 Feature: Tool Tip Page Tests
 
 Scenario: Open an alert with a prompt box

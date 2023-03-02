@@ -1,7 +1,7 @@
 ﻿using System;
 using Architecture.Web;
 
-namespace Pages.PageObjects.Elements
+namespace Pages.PageObjects
 {
     public class TextBoxPage
     {
@@ -26,6 +26,12 @@ namespace Pages.PageObjects.Elements
         public string OutputText => txtOutput.Text;
 
         public bool OutputTextExists => txtOutput.Exists;
-
+    }
+    public class TextBoxDetails
+    {
+        public string fullName { get; set; }
+        public string email { get; set; }
+        public string currentAddress { get; set; }
+        public string permanentAddress { get; set; }
     }
 }

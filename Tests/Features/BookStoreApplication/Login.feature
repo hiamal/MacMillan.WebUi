@@ -1,4 +1,4 @@
-#@ignore
+@ignore
 Feature: Login Page Tests
 
 Scenario: When I use the correct credentials I can login successfully

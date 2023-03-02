@@ -1,4 +1,4 @@
-#@ignore
+@ignore
 Feature: Textbox Page Tests
 
 Scenario: Empty Outbox Box Shown On Empty Submission

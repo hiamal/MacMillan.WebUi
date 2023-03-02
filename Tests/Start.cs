@@ -1,7 +1,7 @@
 using System;
 using TechTalk.SpecFlow;
 using Pages;
-using NUnit.Framework;using Architecture.EnvironmentConfig;
+using NUnit.Framework;
 using Architecture.Web;
 using Architecture.EnvironmentConfig;
 

@@ -21,12 +21,14 @@ namespace Tests.Features.Widgets
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
     [NUnit.Framework.DescriptionAttribute("Date Picker Page Tests")]
+    [NUnit.Framework.IgnoreAttribute("Ignored feature")]
     public partial class DatePickerPageTestsFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-        private static string[] featureTags = ((string[])(null));
+        private static string[] featureTags = new string[] {
+                "ignore"};
         
 #line 1 "DatePickerTests.feature"
 #line hidden

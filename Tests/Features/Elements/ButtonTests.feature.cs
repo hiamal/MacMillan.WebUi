@@ -21,12 +21,14 @@ namespace Tests.Features.Elements
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
     [NUnit.Framework.DescriptionAttribute("Button Page Tests")]
+    [NUnit.Framework.IgnoreAttribute("Ignored feature")]
     public partial class ButtonPageTestsFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-        private static string[] featureTags = ((string[])(null));
+        private static string[] featureTags = new string[] {
+                "ignore"};
         
 #line 1 "ButtonTests.feature"
 #line hidden

@@ -1,4 +1,4 @@
-#@ignore
+@ignore
 Feature: Auto-complete Page Tests
 
 Scenario: Add multiple colour names to the multiple auto-complete box

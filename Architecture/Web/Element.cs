@@ -48,12 +48,13 @@ namespace Architecture.Web
                 thisElement.Click();
         }
 
-        public void ClearCheckBox(){
+        public void ClearCheckBox() {
             if(thisElement.Selected)
                 thisElement.Click();
         }
 
         public string Attribute(string attributeName) => thisElement.GetAttribute(attributeName);
+
         public void Select(string text) => new SelectElement(thisElement).SelectByText(text);
 
         public void DragDrop(Element to) => new Actions(driver).DragAndDrop(thisElement, to.thisElement).Perform();

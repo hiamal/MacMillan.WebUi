@@ -10,7 +10,7 @@ namespace Tests.Steps.Elements
     [Binding]
     public class CheckBoxSteps
     {
-        CheckBoxPage checkboxBoxPage = new CheckBoxPage();
+        CheckBoxPage CheckBoxPage = new CheckBoxPage();
 
        [Given(@"I'm on the Checkbox Pages")]
         public void ImOnCheckboxPage(){
@@ -18,33 +18,31 @@ namespace Tests.Steps.Elements
         }
        [When(@"I check the Desktop Checkbox")]
        public void ICheckDocumentsCheckbox(){
-            checkboxBoxPage.ClickExpandAll();
-            checkboxBoxPage.ClickDesktopCheckbox();
+            CheckBoxPage.ClickExpandAll();
+            CheckBoxPage.ClickDesktopCheckbox();
        }
 
        [Then(@"The results pane contains the text (.*)")]
        public void ResultsPaneContainsTextDocuments(string text){
-            StringAssert.Contains(text,checkboxBoxPage.ResultText);
+            StringAssert.Contains(text,CheckBoxPage.ResultText);
        }
 
-        //[Test, Order(1)]
-        public void SelectDesktopAndDocumentsCheckbox()
+        [When(@"I check the Desktop And Documents Checkbox")]
+        public void WhenIchecktheDesktopAndDocumentsCheckbox()
         {
-            Browser.GoToUrl($"{EnvironmentDetails.BaseUrl}/checkbox");
-            checkboxBoxPage.ClickDesktopCheckbox();
-            checkboxBoxPage.ClickDownloadsCheckbox();
-            StringAssert.Contains("Desktop", checkboxBoxPage.ResultText);
-            StringAssert.Contains(checkboxBoxPage.ResultText, "Downloads");
-            StringAssert.DoesNotContain(checkboxBoxPage.ResultText, "Home");
+            CheckBoxPage.ClickExpandAll();
+            CheckBoxPage.ClearAllCheckBoxes();
+
+            CheckBoxPage.ClickDesktopCheckbox();
+            CheckBoxPage.ClickDocumentsCheckbox();
         }
 
-        //[Test, Order(2)]
-        public void SelectHomeCheckbox()
-        {
-            Browser.GoToUrl($"{EnvironmentDetails.BaseUrl}/checkbox");
-            checkboxBoxPage.ClickHomeCheckbox();
-            StringAssert.Contains(checkboxBoxPage.ResultText, "Home");
-            StringAssert.Contains(checkboxBoxPage.ResultText, "Documents");
-        }
+        [When(@"I check the Home Checkbox")]
+        public void ICheckHomeCheckbox(){
+            CheckBoxPage.ClickExpandAll();
+            CheckBoxPage.ClearAllCheckBoxes();
+
+            CheckBoxPage.ClickHomeCheckbox();
+       }
     }
 }

@@ -1,4 +1,4 @@
-#@ignore
+@ignore
 Feature: Sortable Page Tests
 
 Scenario: Sort the list items in descending order

@@ -3,7 +3,7 @@ using TechTalk.SpecFlow;
 using Architecture.Web;
 using Architecture.EnvironmentConfig;
 using Pages.PageObjects.BookStoreApplication;
-using NUnit.Framework;using Architecture.EnvironmentConfig;
+using NUnit.Framework;
 
 namespace MyNamespace
 {
